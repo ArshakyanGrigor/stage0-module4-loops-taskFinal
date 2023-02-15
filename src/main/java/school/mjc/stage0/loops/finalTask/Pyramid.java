@@ -21,6 +21,9 @@ public class Pyramid {
             for (int j = (cathetusLength) - i; j > 0; j--) {
                 System.out.print(" ");
             }
+            if(upCount > cathetusLength-1){
+                return;
+            }
             System.out.println();
             count = cathetusLength + 1;
             upCount = 1;
