@@ -18,9 +18,6 @@ public class Pyramid {
                     System.out.print(count);
                 }
             }
-            if(upCount > cathetusLength-1){
-                return;
-            }
             System.out.println();
             count = cathetusLength + 1;
             upCount = 1;
